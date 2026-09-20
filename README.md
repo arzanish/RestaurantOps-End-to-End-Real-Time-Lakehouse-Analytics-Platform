@@ -139,22 +139,22 @@ The final platform brings together operational, historical, and real-time data i
 
 # 🛠️ Technology Stack
 
-| Category | Technology |
-|---|---|
-| Cloud | Microsoft Azure |
-| Data Platform | Azure Databricks |
-| Streaming | Azure Event Hubs |
-| Streaming Protocol | Apache Kafka |
-| Source Database | Azure SQL Database |
-| CDC | Lakeflow Connect |
-| Processing | Apache Spark |
+| Category           | Technology                  |
+| ------------------ | --------------------------- |
+| Cloud              | Microsoft Azure             |
+| Data Platform      | Azure Databricks            |
+| Streaming          | Azure Event Hubs            |
+| Streaming Protocol | Apache Kafka                |
+| Source Database    | Azure SQL Database          |
+| CDC                | Lakeflow Connect            |
+| Processing         | Apache Spark                |
 | Pipeline Framework | Spark Declarative Pipelines |
-| Storage | Delta Lake |
-| Governance | Unity Catalog |
-| Orchestration | Databricks Workflows |
-| Transformation | PySpark / SQL |
-| Visualization | Databricks AI/BI Dashboards |
-| Development | Python / SQL |
+| Storage            | Delta Lake                  |
+| Governance         | Unity Catalog               |
+| Orchestration      | Databricks Workflows        |
+| Transformation     | PySpark / SQL               |
+| Visualization      | Databricks AI/BI Dashboards |
+| Development        | Python / SQL                |
 
 ---
 
@@ -730,13 +730,13 @@ screenshots/workflow.png
 
 ## Restaurant Performance Dashboard
 
-![Restaurant Performance Dashboard](dashboards/restaurant-performance.png)
+![Restaurant Performance Dashboard](dashboards/Chain_performance_Insights.png)
 
 ---
 
 ## Review & Sentiment Dashboard
 
-![Review & Sentiment Dashboard](dashboards/review-sentiment.png)
+![Review & Sentiment Dashboard](dashboards/Customer_Reviews.png)
 
 ---
 
