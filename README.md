@@ -31,3 +31,12 @@ The Silver layer implements a dimensional data model consisting of fact tables f
 The Gold layer uses materialized views and Databricks' incremental processing capabilities to produce business-ready datasets. Databricks Workflows orchestrate the ingestion and transformation pipelines.
 
 The final solution exposes business insights through two Databricks AI/BI dashboards covering restaurant performance and customer review/sentiment analysis.
+
+
+
+
+### EXECUTION FLOW : 
+1. Create **Event Hub**. Create a **SEND POLICY** ( Used by the Producer to authenticate and send events to Event Hub. It provides the required connection credentials with Send permission  ) & a **LISTEN POLICY** (Used by Databricks/Consumer to authenticate and read events from Event Hub. It provides Listen permission)
+2. Create an **Azure SQL DB**. Run the DDL statements. Here load data from the given CSV files. Enable **lakeflowSetupChangeTracking** & **lakeflowSetupChangeDataCapture** features using the UTILITY Script provided.
+3. Start mimicking REAL-TIME data inflow using the **04_eventhub_orders.py** file. This will send data to EventHub.
+4. Create a **Databricks WorkSpace**
