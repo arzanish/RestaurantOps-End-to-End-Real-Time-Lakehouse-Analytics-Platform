@@ -40,3 +40,7 @@ The final solution exposes business insights through two Databricks AI/BI dashbo
 2. Create an **Azure SQL DB**. Run the DDL statements. Here load data from the given CSV files. Enable **lakeflowSetupChangeTracking** & **lakeflowSetupChangeDataCapture** features using the UTILITY Script provided.
 3. Start mimicking REAL-TIME data inflow using the **04_eventhub_orders.py** file. This will send data to EventHub.
 4. Create a **Databricks WorkSpace**
+5. Create 4 Schemas in Unity Catalog : 00_landing , 01_bronze , 02_silver , 03_gold
+6. Create an **INGESTION PIPELINE (Pipeline_Ingestion_Bronze)**  to ingest data from SQL SERVER to DB Workspace in the BRONZE LAYER. This creates tables : **historical_orders ; reviews.**
+Create an **INGESTION PIPELINE (Pipeline_Ingestion_Silver)** to ingest data from SQL SERVER to DB Workspace in the SILVER LAYER. This creates tables : **dim_customers , dim_restaurants , dim_menu_items**
+7. 
