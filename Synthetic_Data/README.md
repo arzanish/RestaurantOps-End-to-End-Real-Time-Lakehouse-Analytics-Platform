@@ -15,5 +15,6 @@
 1. Use a Tool like DATAGRIP to load data onto the tables in the AZURE SQL SERVER DB. Or simply use the AZURE SQL DB itself to do so .
 
 
-### STEP3 : 
-1. Use the file **04_eventhub_orders.py** to generate streaming data and send to the AZURE EVENT HUB. Make sure to put in the credentials of the EVENT HUB in a **.env** File and use it.
+### STEP3 : CREATE EVENTHUB
+1.  Create an AZURE EVENTHUB .
+2.  Use the file **04_eventhub_orders.py** to generate streaming data and send to the AZURE EVENT HUB. Make sure to put in the credentials of the EVENT HUB in a **.env** File and use it.
