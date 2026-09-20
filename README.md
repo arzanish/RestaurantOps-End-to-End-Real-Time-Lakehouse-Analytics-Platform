@@ -1,1 +1,1 @@
-# End-to-End-Food-Delivery-Data-Engineering-Analytics-Platform
+# RestaurantOps — End-to-End Real-Time Lakehouse Analytics Platform
