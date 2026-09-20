@@ -690,41 +690,19 @@ Different datasets can have different maintenance strategies depending on the so
 
 ## Azure Event Hubs
 
-_Add screenshot here._
-
-```text
-screenshots/eventhub.png
-```
-
----
-
-## Lakeflow Connect
-
-_Add screenshot here._
-
-```text
-screenshots/lakeflow-connect.png
-```
+![Azure Event Hubs](screenshots/EventHub.png)
 
 ---
 
 ## Silver Data Model
 
-_Add screenshot here._
-
-```text
-screenshots/data-model.png
-```
+![Silver Data Model](screenshots/Silver_DM.png)
 
 ---
 
 ## Databricks Workflow
 
-_Add screenshot here._
-
-```text
-screenshots/workflow.png
-```
+![Databricks Workflow](screenshots/workflow.png)
 
 ---
 
