@@ -10,5 +10,10 @@
 
 4. gold_schemas.md and silver_schemas.md are given for reference. We will use this data in the Databricks Platform when creating these tables.
 
+
 ### STEP2 : DATA Folder
 1. Use a Tool like DATAGRIP to load data onto the tables in the AZURE SQL SERVER DB. Or simply use the AZURE SQL DB itself to do so .
+
+
+### STEP3 : 
+1. Use the file **04_eventhub_orders.py** to generate streaming data and send to the AZURE EVENT HUB. Make sure to put in the credentials of the EVENT HUB in a **.env** File and use it.
